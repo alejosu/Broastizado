@@ -87,7 +87,7 @@ h1{
 }
 
 .social {
-  width: 70%;
+  width: 60%;
 
 }
 
@@ -127,4 +127,25 @@ h1{
 
 .carta_titulo h1 {
   color: white;
+}
+
+.plato {
+  border: 2.5px solid grey;
+  color: black;
+  font-size: 1.5rem;
+  padding-top: 5px;
+}
+
+.plato_image {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.plato_descripcion_p {
+  margin: 5px;
+}
+
+.plato_precio {
+  font-style: italic;
+  margin: 5px;
 }
