@@ -1,0 +1,82 @@
+/*font-family: 'Josefin Sans', sans-serif;
+
+font-family: 'Courgette', cursive;
+*/
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  color: white;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Courgette', cursive;
+  color: black;
+}
+
+h1{
+  font-size: 23px;
+}
+
+.cabecera img{
+  width: 100%;
+  height: auto;
+  opacity: .7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.divisor {
+  border: solid white 2px;
+}
+
+.titulo {
+  height: 80px;
+  padding-bottom: 10px;
+}
+
+.carta {
+  background-color: #ed761e;
+}
+.imagen_carta {
+  background-color: #ed761e;
+}
+
+.texto_carta {
+  background-color: #ed761e;
+}
+
+.domicilios {
+  background-color: #7a806a;
+}
+
+.imagen_domicilios {
+  background-color: #7a806a;
+}
+
+.texto_domicilios {
+  background-color: #7a806a;
+}
+
+.nosotros {
+  background-color: #b78f3e;
+}
+
+.imagen_nosotros {
+  background-color: #b78f3e;
+}
+
+.texto_nosotros {
+  background-color: #b78f3e;
+}
+
+.restaurantes {
+  background-color: #a64029;
+}
+
+.imagen_restaurantes {
+  background-color: #a64029;
+}
+
+.texto_restaurantes {
+  background-color: #a64029;
+}
