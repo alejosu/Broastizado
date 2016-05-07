@@ -9,7 +9,7 @@ body {
   color: white;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,h6 {
   font-family: 'Courgette', cursive;
   color: black;
 }
@@ -26,12 +26,17 @@ h1{
 }
 
 .divisor {
-  border: solid white 2px;
+  border: solid white 2.5px;
 }
 
 .titulo {
   height: 80px;
   padding-bottom: 10px;
+}
+
+.titulo_seccion {
+  margin-top: 24px;
+  margin-right: 33px;
 }
 
 .carta {
@@ -79,4 +84,47 @@ h1{
 
 .texto_restaurantes {
   background-color: #a64029;
+}
+
+.social {
+  width: 70%;
+
+}
+
+.redes{
+  margin-top: 10px;
+  margin-bottom: 7px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.lista_redes {
+  list-style: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0px;
+}
+
+.lista_redes_red {
+  padding: 0;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0px;
+  text-align: center;
+}
+
+.carta_titulo {
+  background-color: #ed761e;
+}
+
+.carta_titulo h1 {
+  color: white;
 }
