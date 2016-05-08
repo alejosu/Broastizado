@@ -206,3 +206,22 @@ a:link {
   background-color: #7a806a;
   font-size: 1.2rem;
 }
+
+.restaurantes_titulo {
+  background-color: #a64029;
+}
+
+.restaurantes_titulo h1 {
+  color: white;
+}
+
+.restaurante {
+  border: 2.5px solid grey;
+  color: black;
+  font-size: 1.5rem;
+  padding-top: 5px;
+}
+
+.restaurante_descripcion_p {
+  margin: 5px;
+}
