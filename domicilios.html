@@ -21,7 +21,7 @@
     </div>
   </a>
 
-  <div class="row domicilios_titulo">
+  <div class="row pagina_domicilio_titulo">
     <div class="col-xs-2"></div>
     <div class="col-xs-8 text-center">
       <h1>DOMICILIOS</h1>
@@ -30,18 +30,38 @@
   </div>
   <div class="row divisor"></div>
 
-  <div class="row domicilios">
-    <h5 class="text-center">Costillas al Carbon</h5>
-    <img src="images/domicilios.jpeg" class="center-block domicilios_image" alt="Costillas" />
-    <div class="row domicilio_descripcion">
+  <div class="row pagina_domicilio">
+    <h5 class="text-center">¿Que deseas?</h5>
+    <div class="row pagina_domicilio_descripcion">
       <div class="container">
         <div class="col-xs-12">
-          <p class="text-justify domicilio_descripcion_p">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p class="text-justify pagina_domicilio_descripcion_p">
+            Ingresa tus datos y los nombres de los platos que deseas y te llamaremos para confirmar tu pedido.
           </p>
         </div>
       </div>
     </div>
+      <div class="col-xs-12">
+        <form class="pagina_domicilio_formulario">
+          <div class="form-group">
+            <label for="nombreCliente">Nombre</label>
+            <input type="text" class="form-control" id="nombreCliente" placeholder="Nombre">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Correo</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo">
+          </div>
+          <div class="form-group">
+            <label for="telefonoCliente">Teléfono</label>
+            <input type="text" class="form-control" id="telefonoCliente" placeholder="Teléfono">
+          </div>
+          <div class="form-group">
+            <label for="pedidoCliente">Pedido</label>
+            <textarea class="form-control" rows="3" id="pedidoCliente" placeholder="Pedido"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default">Enviar</button>
+        </form>
+      </div>
   </div>
 
 

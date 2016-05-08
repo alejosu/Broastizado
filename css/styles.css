@@ -180,3 +180,29 @@ a:link {
 .nosotros_seccion_descripcion_p {
   margin: 5px;
 }
+
+.pagina_domicilio {
+  border: 2.5px solid grey;
+  color: black;
+  font-size: 1.5rem;
+  padding-top: 5px;
+}
+
+.pagina_domicilio_titulo h1 {
+  color: white;
+}
+
+.pagina_domicilio_titulo {
+  background-color: #7a806a;
+}
+
+.pagina_domicilio_descripcion_p {
+  margin: 5px;
+}
+
+.pagina_domicilio_formulario {
+  margin: 5px;
+  padding: 5px;
+  background-color: #7a806a;
+  font-size: 1.2rem;
+}
